@@ -5,16 +5,6 @@ The aim of frameworks in general is to provide a common structure so that develo
 CSS frameworks:
 - allow for quicker and easier styling
 - provide a cohesive, semi-polished look right off the bat
-- are super easy to install!
-- help with mobile-friendly layouts
-
-# CSS Frameworks
-
-The aim of frameworks in general is to provide a common structure so that developers don’t have to redo it from scratch.
-
-CSS frameworks:
-- allow for quicker and easier styling
-- provide a cohesive, semi-polished look right off the bat
 - are super easy to install
 - help with mobile-friendly layouts
 - **Nowadays, primary benefit is their easy to use grid-system
@@ -31,7 +21,7 @@ CSS frameworks:
 ## What frameworks are there?
 - **[Foundation](http://foundation.zurb.com/)** (preferred)
 - [Bootstrap](http://getbootstrap.com/)
-- TAILWIND
+- Tailwind
 - Many, many others
 
 ## How to use Foundation
@@ -61,12 +51,20 @@ This allows you to use HTML classes to format the layout of your page! By adding
 
 Foundation imagines that every element of the page is divided into rows and columns. This allows you to specify what sort of space you want your content to take up! You can add rows all you want. For columns, Foundation divides every element into 12 imaginary units of space - you use this to specify what width you want your elements.
 
-
 Here are some of the classes you'll use:
 - `grid-x`: marking something as a row will cause it to take up the full width of its parent element. Use this to mark out a space for vertical elements to reside inside.
-- `cell` or `columns`: Preferably use this to wrap your actual content. This will create a column of a certain width (see below) that your content will reside inside.
+- `cell`: Preferably use this to wrap your actual content. This will create a column of a certain width (see below) that your content will reside inside.
 - `small-#`: This is how you pick how wide your columns are. Remember, every parent element is divided into 12 imaginary units. `small-#` specifies how many of those units you want your column to take up. If I write `small-3`, my column will be 3 units wide, or 25% the width of the parent element. `small-12` will take up the full width of my parent element.
 - `medium-#`, `large-#`: the "small" part of the above class means "with small screens, do this". Here you can specify different widths for medium and large screens! This will mean your layout changes depending on screen size. (Yay mobile-friendly design!)
 
 Check out the [docs](https://get.foundation/sites/docs/xy-grid.html) for more useful classes like offsetting your rows, centering columns, etc.
-w
+
+## Flexbox and CSS-Grid Learning Resources 
+
+[CSS Garden](https://cssgridgarden.com/)
+
+[Flexbox Froggy](https://flexboxfroggy.com/)
+
+## Organizing/Naming Your Classes
+
+[BEM](https://en.bem.info/methodology/css/)
